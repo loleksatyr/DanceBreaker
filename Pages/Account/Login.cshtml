@@ -10,7 +10,7 @@
                 <label asp-for="Credentails.Number"></label>
             </div> 
             <div class="col-5">
-                <input type="text" asp-for="Credentails.Number" class="form-control"/>
+                <input type="text" asp-for="Credentails.Number" class="form-control" minlenght="9" maxlength="9"/>
             </div>
             <span class="text-danger" asp-validation-for="Credentails.Number"></span>
         </div>
@@ -19,7 +19,7 @@
                 <label asp-for="Credentails.Password"></label>
             </div>
             <div class="col-5">
-                <input type="password" asp-for="Credentails.Password" class="form-control"/>
+                <input type="password" asp-for="Credentails.Password" class="form-control" minlength = "4" maxlength="4"/>
             </div>
             <span class="text-danger" asp-validation-for="Credentails.Password"></span>
 

@@ -14,9 +14,11 @@ namespace DanceBreaker.Pages.Account
             
         }
 
-        public void OnPost() { 
-        
-        
+        public void OnPost() {
+
+            if (!ModelState.IsValid) return;
+
+            if()
         }
         public class Credentail
         {
