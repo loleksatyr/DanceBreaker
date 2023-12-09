@@ -6,5 +6,16 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">Wpowadź numer</a>.</p>
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+           
+            <div class="col-5">
+                <input type="text" asp-for="" class="form-control" minlenght="9" maxlength="9" />
+            </div>
+            <span class="text-danger" asp-validation-for=""></span>
+        </div>
+       
+    </form>
 </div>
